@@ -8,6 +8,7 @@ public class Circle extends Shape{
         this.radius = radius;
     }
     public void display() {
-        System.out.println("Displaying Circle");
+        System.out.println("Displaying Circle with radius " + radius
+                + ", starting coordinate x= "+ super.getX() + ", y = " + super.getY());
     }
 }

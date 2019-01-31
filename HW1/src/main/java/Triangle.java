@@ -9,6 +9,8 @@ public class Triangle extends Shape {
         this.height = height;
     }
     public void display() {
-        System.out.println("Displaying Triangle");
+
+        System.out.println("Displaying Triangle with base " + base + ", height = " + height
+                + ", starting coordinate x= "+ super.getX() + ", y = " + super.getY());
     }
 }

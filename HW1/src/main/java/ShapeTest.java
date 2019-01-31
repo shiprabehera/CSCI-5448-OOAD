@@ -4,7 +4,8 @@ import java.util.*;
 public class ShapeTest {
     public static void main(String args[]) {
         System.out.println("Hello World");
-        List<Shape> shapes = new ArrayList<Shape>();
+        List<Shape> shapes = new ArrayList<>();
+        
         shapes.add(new Circle(2, 2, 5));
         shapes.add(new Square(0, 2, 5));
         shapes.add(new Triangle(1, 2, 3, 4));

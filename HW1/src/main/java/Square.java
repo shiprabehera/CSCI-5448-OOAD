@@ -8,6 +8,8 @@ public class Square extends Shape{
         this.side = side;
     }
     public void display() {
-        System.out.println("Displaying Square");
+
+        System.out.println("Displaying Square with side " + side
+                + ", starting coordinate x= "+ super.getX() + ", y = " + super.getY());
     }
 }
