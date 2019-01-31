@@ -3,7 +3,7 @@ package main.java;
 public class Circle extends Shape{
     private double radius;
 
-    public Circle(double x, double y, double radiius) {
+    public Circle(double x, double y, double radius) {
         super(x, y);
         this.radius = radius;
     }
