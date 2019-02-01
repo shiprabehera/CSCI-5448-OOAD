@@ -14,7 +14,7 @@ public class ShapeTest {
         //sort
         database.sortShapes();
         System.out.println("------------------------------------------------------");
-        System.out.println("Shapes sorted on perimeter ---------------------------");
+        System.out.println("Shapes sorted by perimeter ---------------------------");
         //display sorted shapes
         database.displayShapes();
 
