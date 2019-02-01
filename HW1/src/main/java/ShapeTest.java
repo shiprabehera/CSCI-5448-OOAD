@@ -1,19 +1,21 @@
 package main.java;
-import java.util.*;
 
 public class ShapeTest {
     public static void main(String args[]) {
-        System.out.println("Hello World");
+
         ShapeDatabase database = new ShapeDatabase();
 
-        //is this correct?
+        //display number of shapes
         System.out.println("Number of shapes are: "+ database.getNumberOfShapes());
-
+        System.out.println("-------------------------------------------");
+        System.out.println("Unsorted Shapes ---------------------------");
         //display unsorted shapes
         database.displayShapes();
         //sort
         database.sortShapes();
-        //display unsorted shapes
+        System.out.println("------------------------------------------------------");
+        System.out.println("Shapes sorted on perimeter ---------------------------");
+        //display sorted shapes
         database.displayShapes();
 
     }

@@ -9,7 +9,8 @@ public class ShapeDatabase {
     private List<Shape> shapes = new ArrayList<>();
 
     public ShapeDatabase() {
-        shapes.add(new Circle(2, 2, 5));
+        //creating new shapes
+        shapes.add(new Circle(2, 2, 3));
         shapes.add(new Square(0, 2, 5));
         shapes.add(new Triangle(1, 2, 3, 4));
     }
@@ -18,8 +19,8 @@ public class ShapeDatabase {
     }
 
     public void sortShapes() {
-        //sorting the shapes based on x coordinate // can change this to anything
-        Collections.sort(shapes, Comparator.comparingDouble(Shape::getX));
+        //sorting the shapes based on perimeter
+        Collections.sort(shapes, Comparator.comparingDouble(Shape::getPerimeter));
     }
 
     public void displayShapes() {
